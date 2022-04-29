@@ -89,3 +89,4 @@ M: Je combineert aangeboden principes en conventies op het gebied van frontend, 
 Deze opdracht is done als:
 
 [ ] - {beschrijf de definitions of done}
+[ ] - De deeltaak is gedocumenteerd in de Readme van de leertaak
