@@ -1,30 +1,25 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Geef je project een titel en schrijf in één zin wat het is.
 
-## Inhoudsopgave
+## Serverside Performance Optimalisatie
+Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe. 
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+### Minifying
+Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+### Code splitting
+Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+### Caching
+Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
 
-## Installatie
-
-## Gebruik
+### Compressie
+Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
 
 ## Bronnen
+Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
 
 ## Licentie
 

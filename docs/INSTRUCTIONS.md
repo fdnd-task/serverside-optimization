@@ -1,197 +1,55 @@
-De conventie voor naamgeving is opdrachtgever-opdracht-ondersteuningsniveau
+# Serverside Performance Optimalisatie
 
-Topics: opdrachtgever-naam, semester-naam, sprint-naam, niveau-naam
-
-# {Naam}
-
-{Beschrijving van de leertaak}.
+Een deeltaak waarin je drie server-side performance optimalisaties toepast op jouw project.
 
 ## Context
-*Bij welke sprint hoort deze leertaak en welk niveau heeft deze leertaak.*
-
-Deze leertaak hoort bij {sprint # "titel van de sprint"}. Dit is een {niveau van de opdracht} die je {individueel, in team} uitvoert voor {opdrachtgever}
-
-
-## Briefing
-*In de briefing staat wat de opdracht is en wat de opdrachtgever wil.*
-
-{Beschrijf de opdrachtgever}
-{Beschrijf de opdracht}
+Deze leertaak hoort bij sprint 10 Performance Matters. Dit is een deeltaak die je individueel uitvoert. In het college S10W1-03-Serverside-Performance-Optimalisatie worden vier performance optimalisaties uitgelegd die je in deze deeltaak zelfstandig implementeert.
 
 ## Doel van deze opdracht
-*Wat leer je in deze taak.*
+Je hebt geleerd dat *Performance* een heel belangrijk aandachtspunt is bij het bouwen van websites. In deze opdracht leer je in een paar stappen laag hangend performance fruit te pakken. Met een aantal relatief simpele ingrepen kan je jouw website performance verbeteren. 
 
-{beschrijf de taak in actieve taal: Je leert hoe...}
-
-<table>
-    <tr>
-        <td colspan="4"><b>Week 1</b></td>
-    </tr>
-    <tr>
-        <td>Maandag</td>
-        <td>{datum}</td>
-        <td>13:00 uur *</td>
-        <td>Briefing</td>
-    </tr>
-    <tr>
-        <td>Dinsdag</td>
-        <td>{datum}</td>
-        <td>13:00 uur *</td>
-        <td>Debriefing</td>
-    </tr>
-    <tr>
-        <td colspan="4"><b>Week 2</b></td>
-    </tr>
-    <tr>
-        <td>Dinsdag, woensdag of donderdag</td>
-        <td>{datum}</td>
-        <td>13:00 uur *</td>
-        <td>Feedbacksessie</td>
-    </tr>
-    <tr>
-        <td colspan="4"><b>Week 3</b></td>
-    </tr>
-    <tr>
-        <td>Donderdag</td>
-        <td>{datum}</td>
-        <td>13:00 uur *</td>
-        <td>Oplevering</td>
-    </tr>
-</table>
-* vanaf 13:00 uur
+Het resultaat is gegarandeerd het sneller inladen van jouw website!
 
 ## Werkwijze
-*De werkwijze volgt de fasering van de Development Life Cycle.*
 
-{geef de opdracht, in meer of mindere mate van sturing afhankelijk van het niveau van de taak}
+Opdracht: Implementeer vier serverside performance optimalisaties: Minifying, Code splitting, Caching en Compressie.
 
-Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
-
-### Analyseren
-*In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.*
-
-<details>
-<summary>Aanpak</summary>
-
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
-#### Materiaal analysefase
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-
-</details>
-
-### Ontwerpen
-*In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.*
-
-<details>
-<summary>Aanpak</summary>
-
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
-#### Materiaal ontwerpfase
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-
-</details>
+Deze opdracht gaat over de [bouwen](#bouwen) fase van de DLC
 
 ### Bouwen
-*In de bouwfase realiseer je de beslissingen uit de ontwerpfase.*
+Voor deze opdracht voer je vier performance optimalisaties uit op een bestaand project. Kies een bestaand project uit jouw Github account om de optimalisaties op uit te voeren. Begin met een [Performance Audit](https://github.com/fdnd-task/performance-matters-performance-audit)
 
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. Minify jouw CSS door gebruik te maken van PostCSS (optioneel: minify ook je client-side javascript).
+2. Pas handmatig code-splitting toe op client-side javascript bestanden zodat alleen zaken worden ingeladen die écht gebruikt worden.
+3. Verstuur cache-control headers bij GET requests naar jouw website, kies beargumenteerd een max-age.
+4. Pas compressie toe. (optioneel: kies de juiste compressie aan de hand van het request)
 
-#### Materiaal bouwfase
+#### Materiaal Bouwfase
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-
-</details>
-
-### Integreren
-*In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.*
-
-<details>
-<summary>Aanpak</summary>
-
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
-#### Materiaal integratiefase
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [How to minify CSS with Node.js @ benborgers.com](https://benborgers.com/posts/node-minify-css)
+- [Code splitting @ MDN](https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting)
+- [Cache headers in Express js app @ Regbrain.com](https://regbrain.com/article/cache-headers-express-js)
+- [Gzip compression with Node.js @ victorvr.com](https://www.victorvr.com/tutorial/compresion-gzip-con-nodejs)
+- [Node.js compression middleware @ expressjs.com](http://expressjs.com/en/resources/middleware/compression.html)
+- [Compression @ npmjs.com](https://www.npmjs.com/package/compression)
 
 </details>
 
-### Testen
-*In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.*
+## Criteria		
 
-<details>
-<summary>Aanpak</summary>
+Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten werken van een applicatie.
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+Deze leertaak hoort bij het gedragscriterium:
 
-#### Materiaal testfase
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-
-</details>
-
-## Criteria
-*Definitions of done*
-
-Focus sprint 1 - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design. Hoe gaan werken we bij FDND, wat wordt er van de student verwacht, welke mindset is nodig. Succes ervaren.
-
-Focus sprint 2 - De focus in deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat.Kennismaken met het vakgebied, communiceren en presenteren. Hoe kom je over bij je opdrachtgever. Durfen.
-
-Focus sprint 3 - De focus in deze sprint ligt op gebruiksvriendelijkheid, toegankelijkheid, testen en de testresultaten gebruiken voor het verbeteren van een ontwerp. Je maakt iets voor een mens. Praten met een mens, doorvragen, protoypen en testen en resultaten gebruiken.
-
-Focus sprint 4 - De focus in deze sprint ligt op het toepassen van een huisstijl en maken van formulieren. Living styleguide en Atomic design, Animeren, Toegankelijke formulieren.
-
-Focus sprint 5 - De focus van deze sprint ligt op navigatie en informatie architectuur van een website. Organiseren en structureren van informatie, Design Patterns toepassen, Navigatie, filteren en zoekstrategieën, Micro Interacties.
-
-Focus sprint 6 - De focus van deze sprint ligt op werkwijze, samenwerken. Toepassen wat je al hebt geleerd. Er achter komen dat je een bedrijf kan helpen en advies kan geven over verschillende frontend zaken zoals navigatie, toegankelijkheid, interface design.
-
-Focus sprint 7 - De focus in deze sprint ligt op team building, samenwerken en hoe je een dynamische website kan maken waar bezoekers ook iets achter kunnen laten.	Het doel van deze sprint is binding tussen studenten creeeren. Met deze squad ga je het doen! Samen studeren, leren en elkaar helpen. En iets gezamenlijks maken met een database dingen. Een sneak peak naar de rest van het semester.
-
-Focus sprint 8 - De focus van deze sprint ligt op het maken van een opdracht voor een opdrachtgever, leren hoe je externe data kan laden en presenteren. Je hebt data, die ga je laden en tonen, zodat iemand daar iets mee kan doen.
-dat betekent veel voor de interfcace, het laden van de data kost tijd en de data kan veranderen, hoe toon je dat en hoe zorg je dat je gebruiker 'controle' ervaart.
-
-Focus sprint 9 - De focus van deze sprint ligt op gebruiksvriendelijkheid, toegankelijkheid, testen en de testresultaten gebruiken voor het verbeteren van een ontwerp. Server site rendering leren. Progressive enhancement leren. Core functionaliteit kunnen bepalen en implementeren				
-
-Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten werken van een applicatie, ook als er geen verbinding is met het internet.
-
-Focus sprint 11 - De focus van deze sprint ligt op het maken van multi-user omgeving door het opzetten van een real-time verbinding tussen client en server. 
-
-Focus sprint 12 - De focus van deze sprint ligt op werkwijze en hoe je een opdrachtgever kan helpen met het uitwerken van een concept. 
-
-
-
-
-### Deze leertaak hoort bij het gedragscriterium:
-
-{benoem de betreffende gedrasgcriteria}
+M: Je combineert aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving.
+C: Je kan ontwerpkeuzes, eigen ideeën en producten begrijpelijk overbrengen aan belanghebbenden.
 
 Deze opdracht is done als:
+- [ ] Je hebt de vier performance optimalisaties geïmplementeerd
+- [ ] Je hebt de performance optimalisatie geanalyseerd met een [Performance Audit](https://github.com/fdnd-task/performance-matters-performance-audit) vooraf én achteraf.
+- [ ] Je hebt de performance optimalisatie gedocumenteerd in de Readme van de leertaak.
 
-[ ] - {beschrijf de definitions of done}
+
