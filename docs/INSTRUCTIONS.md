@@ -1,13 +1,13 @@
 
 # Performance Matters - Serverside optimization
 
-Leren hoe je server-side performance kan toepassen.
+Een deeltaak waarin je drie server-side performance optimalisaties toepast op jouw project.
 
 ## Context
 
 Deze leertaak hoort bij sprint 10 Performance Matters. Dit is een deeltaak die je individueel uitvoert.
 
-In het college S10W1-02-server-side-performance wordt behandeld hoe je serverside  performance kan toepassen.
+In het college S10W1-02-server-side-performance wordt behandeld hoe je server-side optimalisatie kan toepassen.
 
 
 
