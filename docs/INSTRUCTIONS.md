@@ -59,6 +59,7 @@ Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten we
 ### Deze leertaak hoort bij het gedragscriterium:
 
 M: Je combineert aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving.
+
 C: Je kan ontwerpkeuzes, eigen ideeën en producten begrijpelijk overbrengen aan belanghebbenden.
 
 ### Deze opdracht is done als:
