@@ -13,7 +13,7 @@ In het college S10W1-02-server-side-performance wordt behandeld hoe je server-si
 
 ## Doel van deze opdracht
 
-Je hebt geleerd dat *Performance* een heel belangrijk aandachtspunt is bij het bouwen van websites. In deze opdracht leer je in een paar stappen laag hangend performance fruit te pakken. Met een aantal relatief simpele ingrepen kan je jouw website performance verbeteren. 
+Je hebt geleerd dat *Performance* een heel belangrijk aandachtspunt is bij het bouwen van websites. In deze opdracht leer je in een paar stappen laag hangend performance fruit te pakken. Met een aantal relatief simpele ingrepen kan je de performance van je website verbeteren. 
 
 Het resultaat is gegarandeerd het sneller inladen van jouw website!
 
@@ -56,11 +56,6 @@ Voor deze opdracht voer je vier performance optimalisaties uit op een bestaand p
 
 Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten werken van een applicatie.
 
-### Deze leertaak hoort bij het gedragscriterium:
-
-M: Je combineert aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving.  
-
-C: Je kan ontwerpkeuzes, eigen ideeën en producten begrijpelijk overbrengen aan belanghebbenden.
 
 ### Deze opdracht is done als:
 
